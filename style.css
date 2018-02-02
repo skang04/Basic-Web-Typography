@@ -1,0 +1,150 @@
+body {
+  background-color:#f9f2db;
+  border-top: 6px solid #f45f42;
+  font-family: Futura;
+  color: #4c4c4c;
+  margin-left: 25%;
+
+}
+
+
+
+  h1, h2, h4, h5{
+    font-family: "Museo Slab", serif;
+    color: #f45f42;
+  }
+
+
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    font-style: bold;
+    margin: 50px 0 -25px 0
+  }
+  h2 {
+    text-align: center;
+    border-color: #f45f42;
+    font-size: 6em;
+    text-shadow: -10px 10px 0px #2cb2e0,
+                 -20px 20px 0px #32c1f2,
+                 -30px 30px 0px #60d6ff,
+                 -40px 40px 0px #60d6ff;
+    max-width: 110em;
+    margin-bottom: 0px;
+    color: #01698c;
+  }
+  h3 {
+    font-size: 3em;
+    color: #01698c;
+    margin: 0 0px 10px 0px;
+  }
+
+
+  h4 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 40px 0px -15px 0px;
+    color: #01698c;
+  }
+
+  table h4 {
+    text-align: left;
+    font-size: 20px;
+    color: #f45f42;
+    margin: 90px 0px -15px 0px;
+
+  }
+
+
+  h5 {
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  h6 {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    margin: -10px 0px 300px 0px;
+  }
+  table h6 {
+    text-align: left;
+    font-size: 10px;
+    margin: -40px 0px 20px 0px;
+  }
+
+
+  p {
+    margin: 0px;
+    line-height: 1.2;
+  }
+
+  tr {
+
+    font-size: 1 em;
+    font-family: Museo Slab;
+
+  }
+
+  a {
+    padding-top: -50px;
+    color:#01698c;
+    text-decoration: none;
+    transition: 2s;
+
+  }
+  table a{
+    margin: -100px 0 0 0;
+  }
+
+  a:hover {
+    background-color:coral;
+    color:white;
+    transition:300ms;
+    transform:rotate(45deg);
+
+  }
+
+.chapter h6{
+  text-align:left;
+  font-size: 20px;
+  margin: 300px 0px 0 0px;
+}
+
+.navigation{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  background-color: pink;
+  overflow-y: scroll;
+  width:20%;
+  transform: translateX(-90%);
+  transition: 300ms;
+}
+
+.navigation:hover {
+  transform: translateX(0%);
+}
+
+.element
+
+  .duck{
+
+    text-transform: uppercase;
+    text-shadow: pink 1px 0 10px;
+
+
+  }
+  .foofoo{
+    color: #5b5b5b;
+    font-style: italic;
+  }
+  .why{
+    display: block;
+    text-align: center;
+      font-size: 5em;
+  }
