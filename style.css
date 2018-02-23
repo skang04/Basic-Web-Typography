@@ -130,8 +130,48 @@ body {
   transform: translateX(0%);
 }
 
-.element
+@keyframes drift {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
 
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+h1:before, h1:after {
+  position: absolute;
+  font-family: Museo Slab;
+  mix-blend-mode: overlay;
+  color: pink;
+  font-size: 25rem;
+  opacity: .9;
+  animation-name: drift;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-direction: alternate;
+
+}
+
+h1:before {
+  content: "N";
+  right:15vw;
+  top:15vh;
+  /animation-delay: -2500ms;/
+}
+
+h1::after {
+  content: "O";
+  right:8vw;
+  top:35vh;
+  /animation-delay: -2500ms;/
+}
   .duck{
 
     text-transform: uppercase;
